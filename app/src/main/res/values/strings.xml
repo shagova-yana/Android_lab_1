@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">lab13</string>
+    <string name="push">push</string>
+    <string name="hello">hello</string>
+    <string name="description_1">description_1</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4" />
+    <string name="check">check</string>
+    <string name="text_view">Text View</string>
+    <string name="button">Button</string>
+</resources>

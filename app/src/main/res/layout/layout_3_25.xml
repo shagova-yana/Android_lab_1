@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/vertical_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.4" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/vertical_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.2" />
+
+        <TextView
+            android:id="@+id/id1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/teal_200"
+            app:layout_constraintBottom_toTopOf="@+id/id4"
+            app:layout_constraintEnd_toStartOf="@+id/id3"
+            app:layout_constraintStart_toEndOf="@+id/id6"
+            app:layout_constraintTop_toBottomOf="@+id/id2" />
+
+        <CheckBox
+            android:id="@+id/id2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/purple_200"
+            app:layout_constraintBottom_toTopOf="@+id/id1"
+            app:layout_constraintDimensionRatio="2:1"
+            app:layout_constraintStart_toEndOf="@+id/vertical_1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/id3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/purple_700"
+            app:layout_constraintBottom_toTopOf="@+id/id4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/id1"
+            app:layout_constraintTop_toBottomOf="@+id/id2" />
+
+        <Button
+            android:id="@+id/id4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/purple_200"
+            app:layout_constraintDimensionRatio="2:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/id3"
+            app:layout_constraintTop_toBottomOf="@+id/id3" />
+
+        <EditText
+            android:id="@+id/id5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/teal_700"
+            app:layout_constraintDimensionRatio="1:2"
+            app:layout_constraintEnd_toStartOf="@+id/id2"
+            app:layout_constraintStart_toEndOf="@+id/vertical_2"
+            app:layout_constraintTop_toBottomOf="@+id/id1" />
+
+        <SeekBar
+            android:id="@+id/id6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/black"
+            app:layout_constraintDimensionRatio="1:2"
+            app:layout_constraintEnd_toStartOf="@+id/vertical_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ProgressBar
+            android:id="@+id/id7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/purple_200"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/id4"
+            app:layout_constraintStart_toEndOf="@+id/id5"
+            app:layout_constraintTop_toBottomOf="@+id/id4" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
